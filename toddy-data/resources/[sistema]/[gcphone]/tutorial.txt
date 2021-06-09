@@ -1,0 +1,17 @@
+Obrigado por comprar o produto da Hass Comunity!!
+
+Tutorial basico
+
+No seu banco de dados você apaga tudo que há relacionado 
+Ao gcphone anterior, phone, call etc tudo.!
+
+Feito isso você vai extrair para dentro do seu banco de daros o "vrp" que está aqui
+Verifique se o nome no seu db está vrp se não estiver vai da erro!
+
+No seu cfg você vai startar todas as pastas a baixo
+
+start gcphone
+start mysql-async
+start screenshot-basic
+start webpack
+start yarn

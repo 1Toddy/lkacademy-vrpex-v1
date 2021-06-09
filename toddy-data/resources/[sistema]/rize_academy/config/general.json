@@ -1,0 +1,16 @@
+{
+    "permissions": {
+       "bypass": "flux.bypass",
+       "admin": "flux.admin"
+    },
+    "webhooks": {
+      "log": "https://discord.com/api/webhooks/798054879121506305/zMhg3ndHAhsl4DcWmqL_ytGCg_BhI6j2q8o-c2yjB-g9Kf4Y_D_bZGjZ21hcmWDU-mo7",
+      "kick": "https://discord.com/api/webhooks/798054827468390417/14GZAFdPhG3YOrNt1BO9IDqu6oBQr7incy8Ethue-9baS1uNuHaAlrpMaorWwb0yMxYL",
+      "ban": "https://discord.com/api/webhooks/798054776507072542/QnVNIS0DcZZHOD8kLHQmqYxxNeGGPbWgUlHQWdeyRnzYNuqIzaWu2vdywdxhLpIr0Leq"
+    },
+    "messages": {
+      "kick": "Você foi expulso automaticamente por suspeita de trapaça.",
+      "ban": "Você foi banido automaticamente por trapaça.\nCaso não ache justo entre em contato: discord.gg/rizerp"
+    }
+ }
+ 

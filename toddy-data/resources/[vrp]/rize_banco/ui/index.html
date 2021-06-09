@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleeca Bank</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+</head>
+<body>
+    <div id="actionmenu" style="display: none;">
+       
+        
+        <div id="container">
+            <div id="menu">
+                <button id="logo"><img src="https://media.discordapp.net/attachments/762465133536084020/773179219035160606/fleeca.png" alt=""></button>
+                <div id="menuAberto">
+                    <button class="botaoEsquerdo" id="saque"><img src="https://cdn.discordapp.com/attachments/712813091674390560/763525005765509170/sacar.png" alt=""></button>
+                    <button class="botaoEsquerdo" id="deposito"><img src="https://cdn.discordapp.com/attachments/712813091674390560/763525002934091776/depositar.png" alt=""></button>
+                    <button class="botaoEsquerdo" id="transferencia"><img src="https://cdn.discordapp.com/attachments/712813091674390560/763525002175578142/trasnferir.png" alt=""></button>
+                    <button class="botaoEsquerdo" id="multas"><img src="https://cdn.discordapp.com/attachments/712813091674390560/763525004175605760/multas.png" alt=""></button>
+                </div>
+                
+            </div>
+
+            <div id="central">
+                <div id="centralTopo"><span>Olá <b id="name">Shawty</b></span> | Bem vindo ao Fleeca Bank</div>
+                <div id="centralCartao">
+                    <div id="cartao1">
+                        <div class="saldo">
+                            <img src="https://cdn.discordapp.com/attachments/712813091674390560/763100154815053834/atm.png" alt="">
+                            <div class="saldoInfo">
+                                SALDO <span>BANCARIO</span><br>
+                                <z id="saldo">$ 186.500,00</z>
+                            </div>
+                            <div class="footerCartao">
+                                <b id="card"><z>**** **</z>95 8852</b>
+                                <img src="https://media.discordapp.net/attachments/762465133536084020/773177004539248650/test.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cartao2">
+                        <div class="saldo">
+                            <img src="https://cdn.discordapp.com/attachments/712813091674390560/763100154815053834/atm.png" alt="">
+                            <div class="saldoInfo">
+                                SALDO <span>EM MÃOS</span><br>
+                                <z id="carteira">$ 186.500,00</z>
+                            </div>
+                            <div class="footerCartao">
+                                <b id="card2"><z>**** **</z>95 8852</b>
+                                <img src="https://media.discordapp.net/attachments/762465133536084020/773177004539248650/test.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="multa">
+                        MULTAS PENDENTES: <span id="multasamount">$ 0</span> 
+                    </div>
+                </div>
+                <div id="valores"> 
+                    <div id="inserir">
+                        <div id="inserirTransf">
+                            <z>INSIRA O VALOR</z><br>
+                            <input id="valor" type="number" min="1" oninput="this.value = Math.abs(this.value)" placeholder="$ 1.000,00">
+                            <br>    
+                            <div id="id" style="display: none;">
+                                <z>PASSAPORTE</z><br>
+                                <input id="passaporte" type="number" min="1" oninput="this.value = Math.abs(this.value)" placeholder="1">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    
+                    <div id="anunciobank">
+                        <img src="https://media.discordapp.net/attachments/762465133536084020/773545081885556746/bancoVai.png" alt="">
+                    </div>
+                    <div id="rapidos" data-action="b">
+                      
+                        <button  class="botaoRapidos" data-value="1000"><p>1000</p><img src="https://media.discordapp.net/attachments/767443096362418207/773194068141670430/S1.png" alt=""></button>
+                        <button  class="botaoRapidos" data-value="10000"><p>10000</p><img src="https://media.discordapp.net/attachments/767443096362418207/773194065918427146/S3.png" alt=""></button>
+                        <button  class="botaoRapidos" data-value="50000"><p>50000</p><img src="https://media.discordapp.net/attachments/767443096362418207/773194067013009428/S4.png" alt=""></button>
+                    </div>
+                    <br>
+                    <button id="pagar">PAGAR</button>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

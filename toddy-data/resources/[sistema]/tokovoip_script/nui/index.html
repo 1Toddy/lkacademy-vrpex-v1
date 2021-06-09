@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<style>
+			.tokovoipInfo {
+			    position: absolute;
+				right: 1.5%;
+				bottom: .4%;
+				/* opacity: .5; */
+				/* padding: 5px; */
+				font-family:Arial;
+				font-weight: bold;
+				color: #fff;
+			}
+			.pluginScreen {
+				display: none;
+				position: absolute;
+				background: rgba(0, 0, 0, 0.9);
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+			}
+			.pluginScreenWindow {
+				background: rgba(0, 0, 0, 0.2);
+				width: 400px;
+				height: auto;
+				margin-left: auto;
+				margin-right: auto;
+				position: relative;
+				top: 50%;
+				transform: translateY(-51%);
+				border-top: 10px solid #0091ff;
+				border-bottom: 10px solid #0091ff;
+				padding: 30px;
+				color: #eee;
+				font-family: Tahoma, Geneva, sans-serif;
+				font-size: 15px;
+				text-shadow: 1px 1px #000000;
+				font-weight: arial;
+			}
+			.talking {
+				color: rgba(244, 196, 65, 255);
+			}
+			.normal {
+				color: #0091ff;
+			}
+			.copyrights {
+				padding: 5px;
+				padding-bottom: 0;
+				color: white;
+				opacity: 0.2;
+				font-size: 12px;
+			}
+		</style>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="pluginScreen" class="pluginScreen">
+			<div id="pluginScreenWindow" class="pluginScreenWindow">
+				<center><img src="https://i.ibb.co/86BDFqp/o-CF1-Ote-2.png" height="168px" width="168px"></center>
+				<br>
+				<font color="#0091ff">TokoVOIP</font> do <font color="#0091ff">ALPHA</font> tem que está <font color="#0091ff">instalado</font> e <font color="#0091ff">executando</font> para jogar no nosso servidor.
+				<br><br>
+				Entre em nosso discord e tenha a tag de Aprovado para seguir o tutorial de instalação <font color="#0091ff">https://discord.gg/ALPHARP</font>
+				<br><br>
+
+				<div id="TSServer">
+					IP do TS: 158.69.120.211:10013
+				</div>
+				<div id="TSChannel">
+					Canal necessário:
+				</div>
+				<br>
+				<div id="pluginStatus">
+					ERRO:
+				</div>
+				<div id="pluginVersion">
+					Plugin version:
+				</div>
+			</div>
+		</div>
+		<div class="copyrights">
+		</div>
+		<div id="tokovoipInfo" class="tokovoipInfo">
+		</div>
+	</body>
+</html>

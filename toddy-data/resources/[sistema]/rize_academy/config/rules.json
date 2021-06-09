@@ -1,0 +1,24 @@
+{
+    "teleport":         { "enabled": true, "rollback": true, "punishment": "log" },
+    "invisibility":     { "enabled": true, "rollback": true, "punishment": "log" },
+
+    "godmode":          { "enabled": true, "rollback": true, "punishment": "log" },
+    "shutdown":         { "enabled": true, "rollback": true, "punishment": "log" },
+    "spawn_weapons":    { "enabled": true, "rollback": true, "punishment": "ban" },
+    "superjump":        { "enabled": true, "rollback": true, "punishment": "ban" },
+    "spawn_vehicles":   { "enabled": true, "rollback": true, "punishment": "ban" },
+
+    "spawn_armour":     { "enabled": true, "rollback": true, "punishment": "ban" },
+    "spawn_explosions": { "enabled": true, "rollback": true, "punishment": "ban" },
+    "spawn_objects":    { "enabled": true, "rollback": true, "punishment": "ban" },
+    "spawn_ammo":       { "enabled": true, "rollback": true, "punishment": "ban" },
+    "spawn_health":     { "enabled": true, "rollback": true, "punishment": "ban" },
+    "vehicle_weapons":  { "enabled": true, "rollback": true, "punishment": "ban" },
+    "spawn_npcs":       { "enabled": true, "rollback": true, "punishment": "ban" },
+    "spawner_menu":     { "enabled": true, "rollback": true, "punishment": "ban" },
+    "spectator":        { "enabled": true, "rollback": true, "punishment": "ban" },
+    "speedhack":        { "enabled": true, "rollback": true, "punishment": "log" },
+    "wallhack":         { "enabled": true, "rollback": true, "punishment": "ban" },
+    "injection":        { "enabled": true, "rollback": true, "punishment": "ban" },
+    "aimbot":           { "enabled": true, "rollback": true, "punishment": "log" }
+}

@@ -1,0 +1,24 @@
+dependency "rize_academy" client_script "@rize_academy/client.lua" resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+
+ui_page "nui/index.html"
+
+client_scripts {
+	"@vrp/lib/utils.lua",
+	"client.lua"
+}
+
+server_scripts {
+	"@vrp/lib/utils.lua",
+	"server.lua"
+}
+
+files {
+	"nui/index.html",
+	"nui/css/bootstrap.min.css",
+	"nui/css/jquery-ui.css",
+	"nui/css/style.css",
+	"nui/js/jquery-2.2.4.min.js",
+	"nui/js/jquery-ui.min.js",
+	"nui/js/ui.js",
+	"nui/GothamPro-Black.woff"
+}
